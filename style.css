@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: calc(100% - 140px);
+  margin: auto;
+}
+.header {
+  background-color: #ccc    ;
+  position: sticky;
+  z-index: 9;
+  top: 0;
+  box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ccc;
+  background-image: url('Palestine_Polytechnic_University___c__.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 70px;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.icon a {
+  text-align: center;
+  color: aliceblue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+  margin-top: 10px;
+  transition-duration: 2s;
+}
+.active {
+  font-weight: 800;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.list ul {
+  list-style-type: none;
+  gap: 50px;
+}
+.list ul li a {
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.list a:hover {
+  text-shadow: #393e46 1.3px -1.5px;
+  font-size: 25px;
+  font-weight: 150;
+  cursor: pointer;
+}
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  color: #666;
+  margin: 0;
+}
+
